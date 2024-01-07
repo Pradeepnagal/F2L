@@ -1,0 +1,7 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/fwinonli/public_html/5  # Add /<app_folder> if required
+                         #Copy specific file to destination from root
+        - /bin cp * $DEPLOYPATH                           #copy all from root 
+        
